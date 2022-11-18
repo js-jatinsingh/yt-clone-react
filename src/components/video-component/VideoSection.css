@@ -1,0 +1,17 @@
+.recommendedVideos{
+    flex:0.8;
+    margin: 10px 10px;
+
+    
+}
+.recommendedVideos >h4{
+    padding: 10px;
+    font-size: large;
+    font-weight: bolder;
+   
+}
+.recommendedVideos_videos{
+    display: flex;
+    flex-wrap: wrap;
+    
+}

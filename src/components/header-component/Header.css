@@ -1,0 +1,59 @@
+.header{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+
+}
+.header_logo{
+    height :25px;
+    object-fit: contain;
+    margin-left: 10px;
+}
+/* input{
+    outline: none;
+    background-color:#212121;
+} */
+.header_left {
+    display: flex;
+    align-items: center;
+}
+.header_input {
+    display: flex;
+    width: 40%;
+    align-items: center;
+    border: solid 1px lightgray ;
+}
+.header_icon {
+    display: flex;
+    align-items: center;
+
+}
+
+.header_input > input {
+    flex:1;
+    border: none;
+    outline: none;
+   
+}
+.header_Input_search{
+    color: #606060;
+    border-left: 1px solid lightgray;
+    width: 50px !important;
+
+}
+.icon{
+    margin-right: 8px;
+}
+
+/* 
+#181818	(24,24,24)
+#212121	(33,33,33)
+#3d3d3d	(61,61,61)
+#ffffff	(255,255,255)
+#aaaaaa
+ */
